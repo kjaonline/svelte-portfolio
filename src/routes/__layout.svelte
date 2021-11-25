@@ -23,14 +23,13 @@
 
 <style lang="scss">
     main {
+        min-height: 200vh;
         max-width: 1920px;
         margin: 0 auto;
         display: grid;
         grid-template-columns: minmax(min-content, 300px) 70%;
         > section {
             padding: 10px;
-        }
-        .mainInfo {
         }
     }
 </style>

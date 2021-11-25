@@ -27,11 +27,10 @@
         {/each}
     </ul>
 </header>
-
-<style lang="scss">
-    ul {
-        list-style-type: none;
+<style lang="scss"> ul { list-style-type: none;
         display: flex;
+        margin: 0;
+        padding: 0; 
         li {
             margin: 10px;
         }
