@@ -32,7 +32,7 @@
         margin: 0;
         padding: 0; 
         li {
-            margin: 10px;
+            margin: 10px 10px 10px 0;
         }
     }
 </style>

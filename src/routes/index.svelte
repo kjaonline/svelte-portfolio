@@ -1,15 +1,17 @@
-<script context="module" lang="ts">
-	export const prerender = true;
-</script>
-
-<script lang="ts">
-	import Counter from '$lib/Counter.svelte';
+<script>
+    import Blog from '$lib/home/blog.svelte'
+    import Experience from '$lib/home/experience.svelte'
+    import Portfolio from '$lib/home/portfolio.svelte'
 </script>
 
 <svelte:head>
-	<title>Home</title>
+    <title>Home</title>
 </svelte:head>
 
-<section></section>
+<section>
+    <Blog />
+    <Experience />
+    <Portfolio />
+</section>
 
 <style></style>

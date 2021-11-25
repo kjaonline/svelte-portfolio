@@ -6,7 +6,6 @@
     import '../styles/typography.scss'
 </script>
 
-<Header />
 
 <main>
     <section class="mainInfo">
@@ -14,6 +13,7 @@
     </section>
 
     <section class="pageContent">
+        <Header />
         <slot />
     </section>
 </main>
