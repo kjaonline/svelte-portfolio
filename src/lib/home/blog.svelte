@@ -5,7 +5,9 @@
 <div>
     <h2>Blog</h2>
     {#each $posts as post}
-        {post.Company}
+        <div>
+            {post.Title}
+        </div>
     {/each}
     <div></div>
 </div>
